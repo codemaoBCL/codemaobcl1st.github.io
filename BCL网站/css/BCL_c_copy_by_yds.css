@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #ffffff
+}
+ul,
+ol{
+    list-style: none;
+}
+.k{
+    width: 100%;
+    height: 64px;
+    background-color: #252525;
+}
+.head{
+    width: 80%;
+    margin-left: 20%;
+    height: 80px;
+}
+.head .logo{
+    margin-top: 12px;
+    height: 40px;
+    float: left;
+    margin-left: 100px;
+}
+.head ul{
+    float: left;
+}
+.head ul li{
+    float: left;
+    padding: 0 20px;
+    line-height: 64px;
+    font-size: 20px;
+}
+.head ul li:hover{
+    background-color: #1f1f1f;
+}
+.head .active{
+    background-color: #1f1f1f
+}
+
